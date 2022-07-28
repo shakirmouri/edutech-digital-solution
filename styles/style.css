@@ -5,8 +5,7 @@
     filter: brightness(50%);
 }
 @media only screen and (max-width: 576px) {
-    smalk-device {
-      display: flex;
-      justify-content: center;
+    .rotate{
+      transform: rotate(180deg)
     }
   }
