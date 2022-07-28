@@ -14,3 +14,11 @@
   .footer-bg{
     background-color: #6047EC;
   }
+  .modal-header{
+    background-color:tomato;
+    color: white;
+  }
+  .required::after{
+    content: "*";
+    color: red;
+  }
