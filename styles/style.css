@@ -1,0 +1,12 @@
+.nav-bg{
+    background-color: #6047EC;
+}
+.my-image{
+    filter: brightness(50%);
+}
+@media only screen and (max-width: 576px) {
+    smalk-device {
+      display: flex;
+      justify-content: center;
+    }
+  }
