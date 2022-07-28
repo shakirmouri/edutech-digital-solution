@@ -4,8 +4,13 @@
 .my-image{
     filter: brightness(50%);
 }
-@media only screen and (max-width: 576px) {
-    .rotate{
-      transform: rotate(180deg)
-    }
+@media only screen and (max-width: 767px) {
+  .faq-text{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  }
+  .footer-bg{
+    background-color: #6047EC;
   }
